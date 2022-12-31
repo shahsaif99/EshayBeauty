@@ -1,13 +1,14 @@
 import React from "react"
 import Header from "./Home/Header"
-import Main from "./Home/Main"
+import Card from "./Home/Card"
 
 export default function App(){
     return(
         <div>
 
         <Header/>
-        {/* <Main/> */}
+        <br/>
+        <Card/>
         </div>
     )
 }

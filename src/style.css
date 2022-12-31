@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -31,8 +32,8 @@ body {
 }
 .logo{
     color: aliceblue;
-    margin-left: 8px;
-    
+    margin-left: 10px;
+    padding-bottom: 10px;    
     
 }
 
@@ -48,7 +49,7 @@ body {
     color: white;
     float:right;
     font-size:x-large;
-    margin-top: 40px;
+    margin-top: 55px;
     margin-right: 30px;
    
 }
@@ -56,35 +57,63 @@ body {
     width: 100%;
 }
 .main{
+    
+    box-shadow: inset -1px 10px 7px 0px rgba(7, 53, 37, 0.9),
+    inset -1px 90px 20px 0px rgba(7, 53, 37, 0.5),
+    inset -1px 100px 30px -70px rgba(7, 53, 37, 0.7); 
+}
+.background{
     height: 700px;
-    background-image: url('https://images.squarespace-cdn.com/content/v1/624b503dce400d19b18aa05e/1649102917091-TR7OO074ZSJAGXMTZQJZ/Stocksy_comp_1173432-reduced.jpg');
+    background-image: url('/public/images/background.png');
+    
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
-    box-shadow: inset -1px 10px 7px 0px rgba(7, 53, 37, 0.9),
-                inset -1px 90px 20px 0px rgba(7, 53, 37, 0.5),
-                inset -1px 100px 30px -70px rgba(7, 53, 37, 0.7); 
 }
 .main-text{
     color: aliceblue;
     text-align: center;
     /* justify-content: center; */
-    margin-top: 200px;
-    font-size: 50px;
-    line-height: 40px;
+    padding-top: 30%;
+    font-size: 100px;
+    line-height: 90px;
+    
 }
 .sub-text{
     color: rgba(202, 218, 231, 0.938);
     
     text-align: center;
-    font-size: large;
-    margin-top:10px ;
-
+    font-size: xx-large;
+    padding-top:10px ;
+    
 }
 .tog-btn{
     border-color: white;
 }
+
+
+
+
+
+
 /* .navbar-toggler-icon{
     background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%255, 0, 0, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');
 }
  */
+ /* .scrolling-wrapper{
+	overflow-x: auto;
+} */
+ /* .card-block{
+    
+	height: 300px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	border-radius: 24px;
+}
+#collection::-webkit-scrollbar {
+    display: none;
+  }
+ 
+   */
