@@ -5,30 +5,15 @@ import "bootstrap/dist/js/bootstrap.min.js";
 
 export default function Card(props) {
   
-//  console.log(cards.length)
-//  function catchingdata(){
-   
-//    return( 
-//   cards.map((obj)=>{
-//    console.log(cards.length)
-//    if(cards.length>0){
-//       console.log("helslo")
-//      var n=cards[1].title
-//      setCardData(prevdata =>({
-//        ...prevdata, productname: n
-//       }))
-//     }
-   
-   
-//    })
-// )
-// }
-// React.useEffect(()=>{
-//   catchingdata();
+  const [allcard, setAllCard]=React.useState([])
 
-// },[2])
-//  console.log(cardData)
+  React.useEffect(() =>{
+    fetch("https://jsonplaceholder.typicode.com/posts")
+    .then(res => res.json())
+    .then(data => setAllCard(data.title))
+  })
 
+  console.log(allcard);
 
   return (
     <div>
