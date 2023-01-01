@@ -15,21 +15,21 @@ export default function Card(){
   React.useEffect(() =>{
     fetch("https://jsonplaceholder.typicode.com/posts")
     .then(res => res.json())
-    .then(data => setAllCard(data.title))
-  })
-
+    .then(data => setAllCard(data))
+  },[])
+  console.log(allcard)
 
    return (
 	<div>
 
 	<div className="row">
-		<div class="col-lg-4">
-  <div class="card mb-3">
-    <img src="/images/background.png" class="card-img-top" alt="Card image"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+		<div className="col-lg-4">
+  <div className="card mb-3">
+    <img src="/images/background.png" className="card-img-top" alt="Card image"/>
+    <div className="card-body">
+      <h5 className="card-title">Card title</h5>
+      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" className="btn btn-primary">Go somewhere</a>
     </div>
 	
 	
