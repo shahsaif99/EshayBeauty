@@ -15,9 +15,10 @@ export default function Card(){
   React.useEffect(() =>{
     fetch("https://jsonplaceholder.typicode.com/posts")
     .then(res => res.json())
-    .then(data => setAllCard(data.title))
+    .then(data => setAllCard(data))
   })
 
+  console.log(allcard);
 
    return (
 	<div>
