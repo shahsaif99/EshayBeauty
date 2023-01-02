@@ -64,7 +64,7 @@ body {
 }
 .background{
     height: 700px;
-    background-image: url('/public/images/background.png');
+    background-image: url('/public/images/background3.jpg');
     
     background-repeat: no-repeat;
     background-size:cover;
@@ -91,6 +91,13 @@ body {
     border-color: white;
 }
 
+.card-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+
+}
 
 
 
