@@ -19,23 +19,19 @@ export default function App(){
             
         <Header/>
         <br/>
+        <div className="row">
+
         {
-            cards.map((data)=>{
-                return(
-                  
-                   
-
-
-                    <Card 
-                    name={data.title}
-                    />
-                    
-                    
-                    
-
-                )
+          cards.map((data)=>{
+            return (
+              
+              
+              <Card name={data.title} />
+              
+              )    
             })
-        }
+          }
+          </div>
         </div>
     )
 }

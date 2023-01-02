@@ -8,10 +8,10 @@ export default function Card(props) {
 
 
   return (
-    <div>
+    
       
 
-      <div className="row">
+      
                         <div className="col-lg-4"> 
 
           <div className="card mb-3">
@@ -20,13 +20,15 @@ export default function Card(props) {
               className="card-img-top"
               alt="Card image"
               />
-            <div className="card-body">
+            <div className="card-body ">
+              <div className="crd-txt">
+
               <h5 className="card-title">{props.name}</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Natural whitning cream made with pure incridients such as aleovera and other things
               </p>
-              <a href="#" className="btn btn-primary">
+              </div>
+              <a href="#" className="btn btn-primary card-btn">
                 Go somewhere
               </a>
             </div>
@@ -38,7 +40,7 @@ export default function Card(props) {
             
         </div>
         
-             </div></div> 
+            
       
   );
 }

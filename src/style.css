@@ -98,7 +98,20 @@ body {
     flex-wrap: nowrap;
 
 }
+.card-body{
+    height: 255.33px;
+    
 
+}
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+
+}
+.crd-txt{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
 
 
 
