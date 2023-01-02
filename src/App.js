@@ -5,8 +5,9 @@ import Card from "./Home/Card"
 export default function App(){
     const [cards, setCards]=React.useState([])
     
+    // this function is used to fetch api for card
   async function getcards(){
-    const res= await fetch("https://jsonplaceholder.typicode.com/posts")
+    const res= await fetch("https://jsonplaceholder.typicode.com/posts ")
     setCards(await res.json());
 
   }
@@ -22,7 +23,7 @@ export default function App(){
         <div className="row">
 
         {
-          cards.map((data)=>{
+          cards.slice(0,3).map((data)=>{
             return (
               
               
