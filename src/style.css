@@ -70,16 +70,16 @@ body {
     background-size:cover;
     background-position:center;
 }
-.main-text{
+.header-text{
     color: aliceblue;
     text-align: center;
     /* justify-content: center; */
     padding-top: 30%;
-    font-size: 100px;
+    font-size: 70px;
     line-height: 90px;
     
 }
-.sub-text{
+.headersub-text{
     color: rgba(202, 218, 231, 0.938);
     
     text-align: center;
@@ -99,7 +99,7 @@ body {
 
 }
 .card-body{
-    height: 255.33px;
+    height: 350.33px;
     
 
 }
@@ -112,10 +112,40 @@ body {
     margin-bottom: 10px;
     overflow: hidden;
 }
+.main-img{
+    height: 400px;
+    width:100%;
+    margin-top: 50px;
+}
+.main-text{
+    /* height: 204px; */
+    overflow:auto;
+    width:475px;
+    margin-left: 10%;
+    font-size: 4.12em;
+    color: #BD4F0A;
+    overflow-x: hidden;
+}
+.shoe-img{
+    width: 360px;
+    height: 219px;
+    
+}
 
+.img-card{
+  margin-top: 140px;
+  width:366px;
+}
+.flower-img{
+    margin-top: 350px;
+    padding-right: 100px;
+    height: 270px;
+   
+}
 
-
-
+.main-text-div{
+    height: 210px;
+}
 /* .navbar-toggler-icon{
     background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%255, 0, 0, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');
 }

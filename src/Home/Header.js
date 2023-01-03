@@ -47,10 +47,13 @@ export default function Header(){
 </nav>
 
 </div>
-<div className="container col-12"> 
-<h1 className="main-text ">All natural organic products</h1> 
-<div className="sub-text ">Made with care and love</div>
+<div className="row">
+
+<div className="container col"> 
+<h1 className="header-text ">All natural organic products</h1> 
+<div className="headersub-text ">Made with care and love</div>
         </div>
+</div>
 </div>
     )
 }
