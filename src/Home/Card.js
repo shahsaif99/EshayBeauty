@@ -12,12 +12,12 @@ export default function Card(props) {
       
 
       
-                        <div className="col-lg-4"> 
+                        <div className="col-md-4"> 
 
           <div className="card mb-3">
             <img
-              src="/images/background.png"
-              className="card-img-top"
+              src="/images/hairoil.webp"
+              className="card-img-top card-img"
               alt="Card image"
               />
             <div className="card-body ">
@@ -28,9 +28,11 @@ export default function Card(props) {
                 Natural whitning cream made with pure incridients such as aleovera and other things
               </p>
               </div>
+              
               <a href="#" className="btn btn-primary card-btn">
-                Go somewhere
+                Add to cart
               </a>
+              
             </div>
           </div>
 

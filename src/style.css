@@ -33,10 +33,12 @@ body {
 .logo{
     color: aliceblue;
     margin-left: 10px;
-    padding-bottom: 10px;    
+   
     
 }
-
+.navbar{
+    height:102px;
+}
 .ic-logo{
     color: white;
     margin: 5px;
@@ -49,7 +51,7 @@ body {
     color: white;
     float:right;
     font-size:x-large;
-    margin-top: 55px;
+    margin-top: 49px;
     margin-right: 30px;
    
 }
@@ -99,14 +101,20 @@ body {
 
 }
 .card-body{
-    height: 350.33px;
+    height: 250.33px;
     
 
 }
 .card-btn{
     position: absolute;
     bottom: 10px;
+    background-color: #BD4F0A;
+    border-radius: 40px;
+    
 
+}
+.card-img{
+    height:500px ;
 }
 .crd-txt{
     margin-bottom: 10px;
@@ -167,3 +175,23 @@ body {
   }
  
    */
+   @media (max-width: 562px){
+    .main-text{
+        
+        font-size: 3.12em;
+        margin-left:-50px ;
+       text-align: center;
+       
+    }
+    .flower-img{
+        margin-top: -40px;
+        margin-bottom: 50px;
+    }
+
+   }
+   @media ( max-width: 380px){
+    .main-text{
+        margin-left: -75px;
+        font-size: 2.22em;
+    }
+   }
