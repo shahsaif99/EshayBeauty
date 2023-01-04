@@ -114,6 +114,12 @@ body {
     
 
 }
+.btn-primary{
+    --bs-btn-border-color: #BD4F0A;
+--bs-btn-hover-color: #BD4F0A;
+--bs-btn-hover-bg: #BD4F0A00;
+--bs-btn-hover-border-color: #BD4F0A;
+}
 .card-img{
     height:500px ;
 }
