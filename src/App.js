@@ -1,7 +1,11 @@
 import React from "react"
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import "bootstrap/dist/js/bootstrap.min.js";
 import Header from "./Home/Header"
 import Card from "./Home/Card"
 import Main from "./Home/Main"
+import Gallary from "./Home/Gallary"
 
 export default function App(){
     const [cards, setCards]=React.useState([])
@@ -35,6 +39,7 @@ export default function App(){
           }
           </div>
           <Main/>
+          <Gallary/>
         </div>
     )
 }
