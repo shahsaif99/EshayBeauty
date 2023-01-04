@@ -60,9 +60,9 @@ body {
 }
 .main{
     
-    box-shadow: inset -1px 10px 7px 0px rgba(7, 53, 37, 0.9),
-    inset -1px 90px 20px 0px rgba(7, 53, 37, 0.5),
-    inset -1px 100px 30px -70px rgba(7, 53, 37, 0.7); 
+    box-shadow: inset -1px 30px 40px 0px rgba(7, 53, 37, 0.7),
+    inset -1px 90px 20px 0px rgba(7, 53, 37, 0.4),
+    inset -1px 100px 30px -70px rgba(7, 53, 37, 0.2); 
 }
 .background{
     height: 700px;
@@ -72,6 +72,7 @@ body {
     background-size:cover;
     background-position:center;
 }
+
 .header-text{
     color: aliceblue;
     text-align: center;
