@@ -245,4 +245,7 @@ body {
     .form{
         margin-left: 1px;
     }
+    #formMessage{
+        width: auto;
+    }
    }
