@@ -7,7 +7,7 @@ import Card from "./Home/Card"
 import Main from "./Home/Main"
 import Gallary from "./Home/Gallary"
 import Contact from "./Home/Contact"
-
+import Footer from "./Home/Footer";
 
 export default function App(){
     const [cards, setCards]=React.useState([])
@@ -43,6 +43,7 @@ export default function App(){
           <Main/>
           <Gallary/>
           <Contact/>
+          <Footer/>
         </div>
     )
 }

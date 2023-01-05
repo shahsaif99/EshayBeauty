@@ -24,6 +24,7 @@ export default function Card(props) {
               <div className="crd-txt">
 
               <h5 className="card-title">{props.name}</h5>
+              <p>900/<s>1200</s> 30% </p>
               <p className="card-text">
                 Natural whitning cream made with pure incridients such as aleovera and other things
               </p>
